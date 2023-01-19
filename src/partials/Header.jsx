@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
+import Transition from '../utils/Transition'
 import NavMenu from './NavMenu'
 
 function Header () {
@@ -53,11 +54,22 @@ function Header () {
 
           </div>
 
+          <Transition
+                  show={menuOpen}
+                  appear={true}
+                  className="w-full"
+                  enter="transition ease-in-out duration-200 transform order-first"
+                  enterStart="opacity-0 -translate-y-16"
+                  enterEnd="opacity-100 translate-y-0"
+                  leave="transition ease-in-out duration-200 transform order-first"
+                  leaveStart="opacity-100"
+                  leaveEnd="opacity-0 -translate-y-16">
           <div className="flex justify-center align-center">
-            <ul className={`${menuOpen ? 'flex-col' : 'hidden'} sm:hidden justify-end items-center pb-3`}>
+            <ul className={'flex-col sm:hidden justify-end items-center pb-3'}>
               <NavMenu />
             </ul>
           </div>
+          </Transition>
         </nav>
 
       </div>
