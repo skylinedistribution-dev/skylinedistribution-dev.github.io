@@ -24,3 +24,5 @@ git push -f git@github.com:skylinedistribution-dev/skylinedistribution-dev.githu
 
 cd -
 
+# clean up
+npm run clean
