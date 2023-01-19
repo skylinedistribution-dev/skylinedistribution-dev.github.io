@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import Banner from '../partials/Banner'
 import Header from '../partials/Header'
 
 function SignUp () {
@@ -90,8 +89,6 @@ function SignUp () {
         </section>
 
       </main>
-
-      <Banner />
 
     </div>
   )

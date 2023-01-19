@@ -1,6 +1,5 @@
 import React from 'react'
 
-import Banner from '../partials/Banner'
 import Header from '../partials/Header'
 
 function ResetPassword () {
@@ -45,8 +44,6 @@ function ResetPassword () {
         </section>
 
       </main>
-
-      <Banner />
 
     </div>
   )

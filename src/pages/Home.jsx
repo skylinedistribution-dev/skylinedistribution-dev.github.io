@@ -1,6 +1,5 @@
 import React from 'react'
 
-import Banner from '../partials/Banner'
 import FeaturesHome from '../partials/Features'
 import FeaturesBlocks from '../partials/FeaturesBlocks'
 import Footer from '../partials/Footer'
@@ -27,8 +26,6 @@ function Home () {
         <Newsletter />
 
       </main>
-
-      <Banner />
 
       {/*  Site footer */}
       <Footer />
