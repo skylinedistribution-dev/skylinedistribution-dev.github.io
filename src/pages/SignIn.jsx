@@ -1,10 +1,10 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react'
+import { Link } from 'react-router-dom'
 
-import Header from '../partials/Header';
-import Banner from '../partials/Banner';
+import Banner from '../partials/Banner'
+import Header from '../partials/Header'
 
-function SignIn() {
+function SignIn () {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
 
@@ -98,7 +98,7 @@ function SignIn() {
       <Banner />
 
     </div>
-  );
+  )
 }
 
-export default SignIn;
+export default SignIn

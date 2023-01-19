@@ -1,13 +1,12 @@
-import React, { useState } from 'react';
-import PropTypes from 'prop-types';
-import Transition from '../utils/Transition';
+import PropTypes from 'prop-types'
+import React, { useState } from 'react'
+import Transition from '../utils/Transition'
 
-function Dropdown({
+function Dropdown ({
   children,
   title
 }) {
-
-  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [dropdownOpen, setDropdownOpen] = useState(false)
 
   return (
     <li
@@ -42,15 +41,15 @@ function Dropdown({
         {children}
       </Transition>
     </li>
-  );
+  )
 }
 
-export default Dropdown;
+export default Dropdown
 
 Dropdown.propTypes = {
   children: PropTypes.oneOfType([
     PropTypes.arrayOf(PropTypes.element),
     PropTypes.element.isRequired
   ]),
-  title: PropTypes.string.isRequired,
-};
+  title: PropTypes.string.isRequired
+}

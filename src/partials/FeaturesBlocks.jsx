@@ -1,6 +1,6 @@
-import React from 'react';
+import React from 'react'
 
-function FeaturesBlocks() {
+function FeaturesBlocks () {
   return (
     <section className="relative">
 
@@ -80,7 +80,7 @@ function FeaturesBlocks() {
                     <circle className="stroke-current text-blue-300" strokeLinecap="square" cx="12.571" cy="12.571" r="3.429" />
                   </g>
                 </g>
-              </svg>              
+              </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Fast Prototyping</h4>
               <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
@@ -122,7 +122,7 @@ function FeaturesBlocks() {
         </div>
       </div>
     </section>
-  );
+  )
 }
 
-export default FeaturesBlocks;
+export default FeaturesBlocks

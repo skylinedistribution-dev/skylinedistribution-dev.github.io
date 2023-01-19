@@ -1,9 +1,9 @@
-import React from 'react';
+import React from 'react'
 
-import Header from '../partials/Header';
-import Banner from '../partials/Banner';
+import Banner from '../partials/Banner'
+import Header from '../partials/Header'
 
-function ResetPassword() {
+function ResetPassword () {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
 
@@ -49,7 +49,7 @@ function ResetPassword() {
       <Banner />
 
     </div>
-  );
+  )
 }
 
-export default ResetPassword;
+export default ResetPassword

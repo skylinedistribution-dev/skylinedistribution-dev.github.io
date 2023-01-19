@@ -1,37 +1,36 @@
-import React, { useEffect, useRef } from 'react';
-import PropTypes from 'prop-types';
-import Transition from '../utils/Transition';
+import PropTypes from 'prop-types'
+import React, { useEffect, useRef } from 'react'
+import Transition from '../utils/Transition'
 
-function Modal({
+function Modal ({
   children,
   id,
   ariaLabel,
   show,
   handleClose
 }) {
-
-  const modalContent = useRef(null);
+  const modalContent = useRef(null)
 
   // close the modal on click outside
   useEffect(() => {
     const clickHandler = ({ target }) => {
-      if (!show || modalContent.current.contains(target)) return;
-      handleClose();
-    };
-    document.addEventListener('click', clickHandler);
-    return () => document.removeEventListener('click', clickHandler);
-  });  
+      if (!show || modalContent.current.contains(target)) return
+      handleClose()
+    }
+    document.addEventListener('click', clickHandler)
+    return () => document.removeEventListener('click', clickHandler)
+  })
 
   // close the modal if the esc key is pressed
   useEffect(() => {
     const keyHandler = ({ keyCode }) => {
-      if (keyCode !== 27) return;
-      handleClose();
-    };
-    document.addEventListener('keydown', keyHandler);
+      if (keyCode !== 27) return
+      handleClose()
+    }
+    document.addEventListener('keydown', keyHandler)
 
-    return () => document.removeEventListener('keydown', keyHandler);
-  });  
+    return () => document.removeEventListener('keydown', keyHandler)
+  })
 
   return (
     <>
@@ -63,15 +62,15 @@ function Modal({
         leaveStart="opacity-100 scale-100"
         leaveEnd="opacity-0 scale-95"
       >
-        <div className="bg-white overflow-auto max-w-6xl w-full max-h-full" ref={modalContent}>          
+        <div className="bg-white overflow-auto max-w-6xl w-full max-h-full" ref={modalContent}>
           {children}
         </div>
-      </Transition>    
+      </Transition>
     </>
-  );
+  )
 }
 
-export default Modal;
+export default Modal
 
 Modal.propTypes = {
   children: PropTypes.oneOfType([
@@ -82,4 +81,4 @@ Modal.propTypes = {
   ariaLabel: PropTypes.string,
   show: PropTypes.bool.isRequired,
   handleClose: PropTypes.func.isRequired
-};
+}

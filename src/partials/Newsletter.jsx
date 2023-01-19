@@ -1,6 +1,6 @@
-import React from 'react';
+import React from 'react'
 
-function Newsletter() {
+function Newsletter () {
   return (
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -61,7 +61,7 @@ function Newsletter() {
         </div>
       </div>
     </section>
-  );
+  )
 }
 
-export default Newsletter;
+export default Newsletter

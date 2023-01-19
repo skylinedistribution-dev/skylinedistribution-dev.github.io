@@ -1,7 +1,7 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react'
+import { Link } from 'react-router-dom'
 
-function Footer() {
+function Footer () {
   return (
     <footer>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -49,7 +49,7 @@ function Footer() {
               </li>
               <li className="mb-2">
                 <Link to="#" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Command-line</Link>
-              </li>                            
+              </li>
             </ul>
           </div>
 
@@ -119,7 +119,7 @@ function Footer() {
                 </div>
               </div>
             </form>
-          </div>          
+          </div>
 
         </div>
 
@@ -158,7 +158,7 @@ function Footer() {
 
       </div>
     </footer>
-  );
+  )
 }
 
-export default Footer;
+export default Footer

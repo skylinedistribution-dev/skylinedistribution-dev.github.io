@@ -1,8 +1,8 @@
-import React from 'react';
+import React from 'react'
 
-import TestimonialImage from '../images/testimonial.jpg';
+import TestimonialImage from '../images/testimonial.jpg'
 
-function Testimonials() {
+function Testimonials () {
   return (
     <section className="relative">
 
@@ -100,7 +100,7 @@ function Testimonials() {
         </div>
       </div>
     </section>
-  );
+  )
 }
 
-export default Testimonials;
+export default Testimonials
