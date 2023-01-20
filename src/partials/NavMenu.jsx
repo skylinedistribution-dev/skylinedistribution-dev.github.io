@@ -1,17 +1,17 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 
 function NavMenu () {
   return (
     <>
       <li>
-        <Link to="/signin" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">About</Link>
+        <HashLink to="#about-us" className="font-medium text-xl text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">About</HashLink>
       </li>
       <li>
-        <Link to="/signin" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Get Started</Link>
+        <HashLink to="#products" className="font-medium text-xl text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Products</HashLink>
       </li>
       <li>
-        <Link to="/signin" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Services</Link>
+        <HashLink to="#get-started" className="font-medium text-xl text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Get started</HashLink>
       </li>
     </>
   )

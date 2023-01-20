@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
+import Favicon from '../favicon.svg'
 import Transition from '../utils/Transition'
 import NavMenu from './NavMenu'
 
@@ -23,21 +23,8 @@ function Header () {
         <nav className="flex-col">
           <div className="flex items-center justify-between h-16 md:h-20">
 
-            {/* Site branding */}
             <div className="flex-shrink-0 mr-4">
-              {/* Logo */}
-              <Link to="/" className="block" aria-label="Cruip">
-                <svg className="w-8 h-8" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                  <defs>
-                    <radialGradient cx="21.152%" cy="86.063%" fx="21.152%" fy="86.063%" r="79.941%" id="header-logo">
-                      <stop stopColor="#4FD1C5" offset="0%" />
-                      <stop stopColor="#81E6D9" offset="25.871%" />
-                      <stop stopColor="#338CF5" offset="100%" />
-                    </radialGradient>
-                  </defs>
-                  <rect width="32" height="32" rx="16" fill="url(#header-logo)" fillRule="nonzero" />
-                </svg>
-              </Link>
+              <img className="w-10" src={Favicon} alt="Skyline Distribution" />
             </div>
 
             {/* Site navigation */}
@@ -55,20 +42,20 @@ function Header () {
           </div>
 
           <Transition
-                  show={menuOpen}
-                  appear={true}
-                  className="w-full"
-                  enter="transition ease-in-out duration-200 transform order-first"
-                  enterStart="opacity-0 -translate-y-16"
-                  enterEnd="opacity-100 translate-y-0"
-                  leave="transition ease-in-out duration-200 transform order-first"
-                  leaveStart="opacity-100"
-                  leaveEnd="opacity-0 -translate-y-16">
-          <div className="flex justify-center align-center">
-            <ul className={'flex-col sm:hidden justify-end items-center pb-3'}>
-              <NavMenu />
-            </ul>
-          </div>
+            show={menuOpen}
+            appear={true}
+            className="w-full"
+            enter="transition ease-in-out duration-200 transform order-first"
+            enterStart="opacity-0 -translate-y-16"
+            enterEnd="opacity-100 translate-y-0"
+            leave="transition ease-in-out duration-200 transform order-first"
+            leaveStart="opacity-100"
+            leaveEnd="opacity-0 -translate-y-16">
+            <div className="flex justify-center align-center">
+              <ul className={'flex-col sm:hidden justify-end items-center pb-3'}>
+                <NavMenu />
+              </ul>
+            </div>
           </Transition>
         </nav>
 

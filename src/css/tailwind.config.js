@@ -1,7 +1,7 @@
 module.exports = {
   content: [
     './index.html',
-    './src/**/*.{js,jsx,ts,tsx}',
+    './src/**/*.{js,jsx,ts,tsx}'
   ],
   theme: {
     extend: {
@@ -15,7 +15,7 @@ module.exports = {
           600: '#666666',
           700: '#4C4C4C',
           800: '#333333',
-          900: '#191919',
+          900: '#191919'
         },
         blue: {
           100: '#E6F0FD',
@@ -26,7 +26,7 @@ module.exports = {
           600: '#0070F4',
           700: '#0064DA',
           800: '#0059C2',
-          900: '#004391',
+          900: '#004391'
         },
         teal: {
           100: '#E6FFFA',
@@ -37,8 +37,8 @@ module.exports = {
           600: '#319795',
           700: '#2C7A7B',
           800: '#285E61',
-          900: '#234E52',
-        },
+          900: '#234E52'
+        }
       },
       boxShadow: {
         xs: '0 0 0 1px rgba(0, 0, 0, 0.16)',
@@ -50,15 +50,16 @@ module.exports = {
         '2xl': '0 25px 50px -12px rgba(0, 0, 0, 0.15)',
         inner: 'inset 0 2px 4px 0 rgba(0, 0, 0, 0.04)',
         outline: '0 0 0 3px rgba(66, 153, 225, 0.5)',
-        none: 'none',
+        none: 'none'
       },
       spacing: {
         '9/16': '56.25%',
         '3/4': '75%',
-        '1/1': '100%',
+        '1/1': '100%'
       },
       fontFamily: {
-        inter: ['Inter', 'sans-serif']
+        inter: ['Inter', 'sans-serif'],
+        michroma: ['Michroma']
       },
       fontSize: {
         xs: '0.75rem',
@@ -70,11 +71,11 @@ module.exports = {
         '3xl': '2rem',
         '4xl': '2.625rem',
         '5xl': '3.25rem',
-        '6xl': '5.5rem',
+        '6xl': '5.5rem'
       },
       inset: {
         '1/2': '50%',
-        'full': '100%',
+        full: '100%'
       },
       letterSpacing: {
         tighter: '-0.02em',
@@ -82,7 +83,7 @@ module.exports = {
         normal: '0',
         wide: '0.01em',
         wider: '0.02em',
-        widest: '0.4em',
+        widest: '0.4em'
       },
       lineHeight: {
         none: '1',
@@ -92,47 +93,47 @@ module.exports = {
         normal: '1.5',
         relaxed: '1.625',
         loose: '2',
-        '3': '.75rem',
-        '4': '1rem',
-        '5': '1.2rem',
-        '6': '1.5rem',
-        '7': '1.75rem',
-        '8': '2rem',
-        '9': '2.25rem',
-        '10': '2.5rem',
+        3: '.75rem',
+        4: '1rem',
+        5: '1.2rem',
+        6: '1.5rem',
+        7: '1.75rem',
+        8: '2rem',
+        9: '2.25rem',
+        10: '2.5rem'
       },
       minWidth: {
-        '10': '2.5rem',
-        '48': '12rem',
+        10: '2.5rem',
+        48: '12rem'
       },
       opacity: {
-        '90': '0.9',
+        90: '0.9'
       },
       scale: {
-        '98': '.98'
+        98: '.98'
       },
       animation: {
-        float: 'float 3s ease-in-out infinite',
+        float: 'float 3s ease-in-out infinite'
       },
       keyframes: {
         float: {
-          '0%, 100%': { transform: 'translateY(0)', },
-          '50%': { transform: 'translateY(-5%)', },
-        },
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-5%)' }
+        }
       },
       zIndex: {
-        '-1': '-1',
-      },
-    },
+        '-1': '-1'
+      }
+    }
   },
   variants: {
     backgroundColor: ['responsive', 'hover', 'focus', 'group-hover'],
     textColor: ['responsive', 'hover', 'focus', 'group-hover'],
     translate: ['responsive', 'hover', 'focus', 'group-hover'],
     boxShadow: ['responsive', 'hover', 'focus', 'focus-within'],
-    opacity: ['responsive', 'hover', 'focus', 'group-hover'],
+    opacity: ['responsive', 'hover', 'focus', 'group-hover']
   },
   plugins: [
-    require('@tailwindcss/forms'),
-  ],
-};
+    require('@tailwindcss/forms')
+  ]
+}
