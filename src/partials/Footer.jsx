@@ -7,12 +7,12 @@ function Footer () {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 ">
 
         {/* Top area: Blocks */}
-        <div className="flex justify-between py-8 md:py-12 border-t border-gray-200">
+        <div className="flex justify-evenly items-center py-8 md:py-12 border-t border-gray-200">
 
           {/* 1st block */}
           <div>
             <div className="mb-2">
-              <img src={skylineLogoSVGBlack}/>
+              <img className="w-[250px]" src={skylineLogoSVGBlack}/>
             </div>
           </div>
 

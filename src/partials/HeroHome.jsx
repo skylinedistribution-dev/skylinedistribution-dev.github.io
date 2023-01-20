@@ -3,7 +3,7 @@ import SkylineLogoSVG from '../images/skylineLogoSVG.svg'
 
 function HeroHome () {
   return (
-    <section className="relative">
+    <section className="relative" id="skyline">
 
       {/* Illustration behind hero content */}
       <div className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none z-1" aria-hidden="true">
@@ -25,15 +25,14 @@ function HeroHome () {
       <div className="max-w-8xl mx-auto px-3 sm:px-6" >
 
         {/* Hero content */}
-        <div className="md:pt-[30px] md:pb-10 0">
+        <div className="pt-32">
         <div className="absolute inset-0 bg-gray-900 pointer-events-none z-0" aria-hidden="true"></div>
 
           {/* Section header */}
-          <div className="text-center pb-12 md:pb-16 z-1">
+          <div className="text-center pb-10 md:pb-16 z-1">
             <img className="relative mx-auto w-3/5" src={SkylineLogoSVG} alt="Skyline Distribution"/>
             <div className="max-w-none mx-auto">
-              <p className="italic text-gray-400 mb-8 text-3xl" data-aos="zoom-y-out" data-aos-delay="150">The world&apos;s leading distributor for all of the biggest brands</p>
-              <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300"></div>
+              <p className="italic text-gray-400 mb-8 text-sm sm:text-3xl" data-aos="zoom-y-out" data-aos-delay="150">The world&apos;s leading distributor for all of the biggest brands</p>
             </div>
           </div>
 

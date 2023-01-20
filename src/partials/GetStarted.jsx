@@ -12,7 +12,7 @@ function GetStarted () {
 
           {/* Section header */}
           <div className="max-w-4xl mx-auto text-center pb-12 px-6">
-            <h2 className="h2 mb-4">Get started</h2>
+            <h2 className="h2 mb-4">Get Started</h2>
             <p className="text-xl text-gray-600">Whether you are a budding business or seasoned seller we&apos;ve got you covered.</p>
           </div>
 
@@ -26,17 +26,24 @@ function GetStarted () {
               <ClickableCard
                 icon={<WarehouseIcon fontSize="large" sx={{ color: 'white' }} />}
                 title="Distribution"
-                body="We have a comprehensive catalog of Amazon's best-selling products. Interested in our distribution services? Fill out this form below to get started. "
-                button="Distribution Inquiry Form" 
+                body={
+                  <p className="text-gray-600 text-lg text-center pb-5">
+                    We have a comprehensive catalog of Amazon&apos;s best-selling products. Interested in our distribution services? Fill out this form below to get started.
+                  </p>}
+                button="Distribution Inquiry Form"
                 href="https://forms.gle/vxVA4yMwKYhmp2yf6"
               />
 
               <ClickableCard
                 icon={<LocalShippingIcon fontSize="large" sx={{ color: 'white' }} />}
                 title="Fulfillment"
-                body="We offer a complete Third Party Logistics (3PL) service, helping ecommerce merchants manage their supply chain.
-                      Want us to fulfill your orders? Fill out this form below to get started. "
-                button="Fulfillment Inquiry Form" 
+                body={
+                  <p className="text-gray-600 text-lg text-center pb-5">
+                  We offer a complete Third Party Logistics (3PL) service, helping ecommerce merchants manage their supply chain.
+                      Want us to fulfill your orders? Fill out this form below to get started.
+                  </p>
+                }
+                button="Fulfillment Inquiry Form"
                 href="https://forms.gle/8PdBbaJNsu55sddh8"
               />
             </div>

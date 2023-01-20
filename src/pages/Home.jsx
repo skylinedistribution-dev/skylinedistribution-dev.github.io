@@ -1,10 +1,12 @@
 import React from 'react'
 
 import AboutUs from '../partials/AboutUs'
+import AdditionalServices from '../partials/AdditionalServices'
 import Footer from '../partials/Footer'
 import GetStarted from '../partials/GetStarted'
 import Header from '../partials/Header'
 import HeroHome from '../partials/HeroHome'
+import Products from '../partials/Products'
 import Testimonials from '../partials/Testimonials'
 
 function Home () {
@@ -15,8 +17,10 @@ function Home () {
       <main className="flex-grow">
         <HeroHome />
         <AboutUs />
+        <Products />
         <GetStarted />
         <Testimonials />
+        <AdditionalServices />
       </main>
 
       <Footer />
