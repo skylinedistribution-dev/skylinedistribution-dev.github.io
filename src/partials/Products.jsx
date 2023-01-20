@@ -100,7 +100,7 @@ function Products () {
                   onClick={(e) => { e.preventDefault(); setTab(4) }}
                 >
                     <div className="w-full flex justify-between font-bold leading-snug tracking-tight mb-1">
-                      <div>Small applicances</div>
+                      <div>Small Appliances</div>
                       <MicrowaveIcon />
                     </div>
                 </a>
