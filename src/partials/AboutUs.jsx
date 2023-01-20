@@ -69,10 +69,7 @@ function AboutUs () {
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(1) }}
                 >
-                  <div>
-                    <div className="font-bold leading-snug tracking-tight mb-1">Health and Household</div>
-                    <div className="text-gray-600"></div>
-                  </div>
+                  <div className="font-bold leading-snug tracking-tight mb-1">Health and Household</div>
                 </a>
 
                 <a
@@ -80,10 +77,9 @@ function AboutUs () {
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(2) }}
                 >
-
                   <div className="font-bold leading-snug tracking-tight mb-1">Home and Kitchen</div>
-
                 </a>
+
                 <a
                   className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 3 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
                   href="#0"
