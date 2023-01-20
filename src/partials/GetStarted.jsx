@@ -40,7 +40,7 @@ function GetStarted () {
                 body={
                   <p className="text-gray-600 text-lg text-center pb-5">
                   We offer a complete Third Party Logistics (3PL) service, helping ecommerce merchants manage their supply chain.
-                      Want us to fulfill your orders? Fill out this form below to get started.
+                  Want us to fulfill your orders? Fill out this form below to get started.
                   </p>
                 }
                 button="Fulfillment Inquiry Form"
