@@ -18,31 +18,30 @@ function GetStarted () {
 
           <div className="w-full relative">
 
-            {/* Section background (needs .relative class on parent and next sibling elements) */}
             <div className="absolute inset-0 -top-8 -bottom-8 bg-gray-900 pointer-events-none" aria-hidden="true"></div>
 
-            {/* Items */}
+            {/* List of Services and Inquiry Forms */}
             <div className="relative mx-auto max-w-6xl grid gap-6 grid-cols-2 px-6">
 
-              {/* 1st item */}
               <ClickableCard
                 icon={<WarehouseIcon fontSize="large" sx={{ color: 'white' }} />}
                 title="Distribution"
                 body="We have a comprehensive catalog of Amazon's best-selling products. Interested in our distribution services? Fill out this form below to get started. "
-                button="Distribution Inquiry Form" />
+                button="Distribution Inquiry Form" 
+                href="https://forms.gle/vxVA4yMwKYhmp2yf6"
+              />
 
-              {/* 2nd item */}
               <ClickableCard
                 icon={<LocalShippingIcon fontSize="large" sx={{ color: 'white' }} />}
                 title="Fulfillment"
                 body="We offer a complete Third Party Logistics (3PL) service, helping ecommerce merchants manage their supply chain.
                       Want us to fulfill your orders? Fill out this form below to get started. "
-                button="Fulfillment Inquiry Form" />
-
+                button="Fulfillment Inquiry Form" 
+                href="https://forms.gle/8PdBbaJNsu55sddh8"
+              />
             </div>
 
           </div>
-
         </div>
       </div>
     </section>
