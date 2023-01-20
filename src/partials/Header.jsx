@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from 'react'
-import Favicon from '../favicon.svg'
+import { HashLink } from 'react-router-hash-link'
 import Transition from '../utils/Transition'
 import NavMenu from './NavMenu'
-import { HashLink } from 'react-router-hash-link'
 
-function Header() {
+function Header () {
   const [top, setTop] = useState(true)
   const [menuOpen, setMenuOpen] = useState(false)
 

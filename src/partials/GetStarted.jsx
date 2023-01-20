@@ -8,7 +8,7 @@ import MonitorHeartIcon from '@mui/icons-material/MonitorHeart'
 import WarehouseIcon from '@mui/icons-material/Warehouse'
 import LocalShippingIcon from '@mui/icons-material/LocalShipping'
 
-function GetStarted() {
+function GetStarted () {
   const [tab, setTab] = useState(1)
 
   const tabs = useRef(null)

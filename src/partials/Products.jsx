@@ -1,13 +1,30 @@
 import React, { useEffect, useRef, useState } from 'react'
 import Transition from '../utils/Transition'
 
+import GoliPng from '../images/goli.png'
+import MaryRuthsPng from '../images/mary_ruths.png'
+import NewChapterPng from '../images/new_chapter.png'
+
+import iRobotSvg from '../images/iRobot.svg'
 import NinjaSvg from '../images/ninja.svg'
 import SharkSvg from '../images/shark.svg'
 
-import HomeIcon from '@mui/icons-material/Home'
-import RestaurantMenuIcon from '@mui/icons-material/RestaurantMenu'
+import CelestronSvg from '../images/celestron.svg'
+import LiquidIvPng from '../images/liquid_iv.png'
+import SegwaySvg from '../images/segway.svg'
+
+import BrevilleSvg from '../images/breville.svg'
+import HamiltonBeachSvg from '../images/hamilton_beach.svg'
+import NespressoSvg from '../images/nespresso.svg'
+
+import GoogleSvg from '../images/google.svg'
+import NintendoSvg from '../images/nintendo.svg'
+import SceptreSvg from '../images/sceptre.svg'
+
 import GolfCourseIcon from '@mui/icons-material/GolfCourse'
+import HomeIcon from '@mui/icons-material/Home'
 import MicrowaveIcon from '@mui/icons-material/Microwave'
+import RestaurantMenuIcon from '@mui/icons-material/RestaurantMenu'
 import SpeakerIcon from '@mui/icons-material/Speaker'
 
 function Products () {
@@ -136,8 +153,9 @@ function Products () {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative flex flex-col items-center justify-evenly h-full">
-                    <img className="max-w-[60%]" src={SharkSvg} />
-                    <img className="max-w-[60%]" src={NinjaSvg} />
+                    <img className="max-w-[60%] mb-[-30px]" src={GoliPng} />
+                    <img className="max-w-[60%] rounded-md" src={NewChapterPng} />
+                    <img className="max-w-[60%]" src={MaryRuthsPng} />
                   </div>
                 </Transition>
 
@@ -156,6 +174,7 @@ function Products () {
                   <div className="relative flex flex-col items-center justify-evenly h-full">
                     <img className="w-[60%]" src={SharkSvg} />
                     <img className="w-[60%]" src={NinjaSvg} />
+                    <img className="w-[60%]" src={iRobotSvg} />
                   </div>
                 </Transition>
 
@@ -172,8 +191,9 @@ function Products () {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative flex flex-col items-center justify-evenly h-full">
-                    <img className="w-[60%]" src={SharkSvg} />
-                    <img className="w-[60%]" src={NinjaSvg} />
+                    <img className="w-[60%]" src={SegwaySvg} />
+                    <img className="w-[60%]" src={CelestronSvg} />
+                    <img className="w-[60%]" src={LiquidIvPng} />
                   </div>
                 </Transition>
 
@@ -190,8 +210,9 @@ function Products () {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative flex flex-col items-center justify-evenly h-full">
-                    <img className="w-[60%]" src={SharkSvg} />
-                    <img className="w-[60%]" src={NinjaSvg} />
+                    <img className="w-[60%]" src={HamiltonBeachSvg} />
+                    <img className="w-[60%]" src={BrevilleSvg} />
+                    <img className="w-[60%]" src={NespressoSvg} />
                   </div>
                 </Transition>
 
@@ -208,8 +229,9 @@ function Products () {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative flex flex-col items-center justify-evenly h-full">
-                    <img className="w-[60%]" src={SharkSvg} />
-                    <img className="w-[60%]" src={NinjaSvg} />
+                    <img className="w-[60%]" src={GoogleSvg} />
+                    <img className="w-[60%]" src={NintendoSvg} />
+                    <img className="w-[60%]" src={SceptreSvg} />
                   </div>
                 </Transition>
 

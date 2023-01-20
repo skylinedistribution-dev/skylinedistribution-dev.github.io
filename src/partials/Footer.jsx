@@ -1,7 +1,7 @@
 import React from 'react'
 import skylineLogo from '../images/skylineLogoWhite.svg'
 
-function Footer() {
+function Footer () {
   return (
     <footer>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 ">
