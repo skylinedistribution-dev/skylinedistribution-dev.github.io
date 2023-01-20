@@ -78,14 +78,15 @@ function Products () {
 
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
-                <a
+
+              <a
                   className={`flex items-center text-lg p-5 rounded border-2 transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(1) }}
                 >
                     <div className="w-full flex justify-between font-bold leading-snug tracking-tight mb-1">
-                      <div>Health and Household</div>
-                      <HomeIcon />
+                      <div>Home and Kitchen</div>
+                      <RestaurantMenuIcon />
                     </div>
                 </a>
 
@@ -95,8 +96,8 @@ function Products () {
                   onClick={(e) => { e.preventDefault(); setTab(2) }}
                 >
                     <div className="w-full flex justify-between font-bold leading-snug tracking-tight mb-1">
-                      <div>Home and Kitchen</div>
-                      <RestaurantMenuIcon />
+                      <div>Health and Household</div>
+                      <HomeIcon />
                     </div>
                 </a>
 
@@ -153,9 +154,9 @@ function Products () {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative flex flex-col items-center justify-evenly h-full">
-                    <img className="max-w-[60%] mb-0 md:mb-[-30px]" src={GoliPng} />
-                    <img className="max-w-[60%] mb-12 md:mb-0 rounded-md" src={NewChapterPng} />
-                    <img className="max-w-[60%] mb-12 md:mb-0" src={MaryRuthsPng} />
+                    <img className="w-[60%] mb-12 md:mb-0" src={SharkSvg} />
+                    <img className="w-[60%] mb-12 md:mb-0" src={NinjaSvg} />
+                    <img className="w-[60%] mb-12 md:mb-0" src={iRobotSvg} />
                   </div>
                 </Transition>
 
@@ -172,9 +173,9 @@ function Products () {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative flex flex-col items-center justify-evenly h-full">
-                    <img className="w-[60%] mb-12 md:mb-0" src={SharkSvg} />
-                    <img className="w-[60%] mb-12 md:mb-0" src={NinjaSvg} />
-                    <img className="w-[60%] mb-12 md:mb-0" src={iRobotSvg} />
+                    <img className="max-w-[60%] mb-0 md:mb-[-30px]" src={GoliPng} />
+                    <img className="max-w-[60%] mb-12 md:mb-0 rounded-md" src={NewChapterPng} />
+                    <img className="max-w-[60%] mb-12 md:mb-0" src={MaryRuthsPng} />
                   </div>
                 </Transition>
 
