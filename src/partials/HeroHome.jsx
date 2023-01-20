@@ -31,7 +31,7 @@ function HeroHome () {
           {/* Section header */}
           <div className="text-center pb-10 md:pb-16 z-1">
             <img className="relative mx-auto w-3/5" src={SkylineLogoSVG} alt="Skyline Distribution"/>
-            <div className="max-w-none mx-auto">
+            <div className="mx-auto">
               <p className="italic text-gray-400 mb-8 text-sm sm:text-3xl" data-aos="zoom-y-out" data-aos-delay="150">The world&apos;s leading distributor for all of the biggest brands</p>
             </div>
           </div>
