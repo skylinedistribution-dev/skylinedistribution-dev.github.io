@@ -153,9 +153,9 @@ function Products () {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative flex flex-col items-center justify-evenly h-full">
-                    <img className="max-w-[60%] mb-[-30px]" src={GoliPng} />
-                    <img className="max-w-[60%] rounded-md" src={NewChapterPng} />
-                    <img className="max-w-[60%]" src={MaryRuthsPng} />
+                    <img className="max-w-[60%] mb-0 md:mb-[-30px]" src={GoliPng} />
+                    <img className="max-w-[60%] mb-12 md:mb-0 rounded-md" src={NewChapterPng} />
+                    <img className="max-w-[60%] mb-12 md:mb-0" src={MaryRuthsPng} />
                   </div>
                 </Transition>
 
@@ -172,9 +172,9 @@ function Products () {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative flex flex-col items-center justify-evenly h-full">
-                    <img className="w-[60%]" src={SharkSvg} />
-                    <img className="w-[60%]" src={NinjaSvg} />
-                    <img className="w-[60%]" src={iRobotSvg} />
+                    <img className="w-[60%] mb-12 md:mb-0" src={SharkSvg} />
+                    <img className="w-[60%] mb-12 md:mb-0" src={NinjaSvg} />
+                    <img className="w-[60%] mb-12 md:mb-0" src={iRobotSvg} />
                   </div>
                 </Transition>
 
@@ -191,9 +191,9 @@ function Products () {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative flex flex-col items-center justify-evenly h-full">
-                    <img className="w-[60%]" src={SegwaySvg} />
-                    <img className="w-[60%]" src={CelestronSvg} />
-                    <img className="w-[60%]" src={LiquidIvPng} />
+                    <img className="w-[60%] mb-12 md:mb-0" src={SegwaySvg} />
+                    <img className="w-[60%] mb-12 md:mb-0" src={CelestronSvg} />
+                    <img className="w-[60%] mb-12 md:mb-0" src={LiquidIvPng} />
                   </div>
                 </Transition>
 
@@ -210,9 +210,9 @@ function Products () {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative flex flex-col items-center justify-evenly h-full">
-                    <img className="w-[60%]" src={HamiltonBeachSvg} />
-                    <img className="w-[60%]" src={BrevilleSvg} />
-                    <img className="w-[60%]" src={NespressoSvg} />
+                    <img className="w-[60%] mb-12 md:mb-0" src={HamiltonBeachSvg} />
+                    <img className="w-[60%] mb-12 md:mb-0" src={BrevilleSvg} />
+                    <img className="w-[60%] mb-12 md:mb-0" src={NespressoSvg} />
                   </div>
                 </Transition>
 
@@ -229,9 +229,9 @@ function Products () {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative flex flex-col items-center justify-evenly h-full">
-                    <img className="w-[60%]" src={GoogleSvg} />
-                    <img className="w-[60%]" src={NintendoSvg} />
-                    <img className="w-[60%]" src={SceptreSvg} />
+                    <img className="w-[60%] mb-12 md:mb-0" src={GoogleSvg} />
+                    <img className="w-[60%] mb-12 md:mb-0" src={NintendoSvg} />
+                    <img className="w-[60%] mb-12 md:mb-0" src={SceptreSvg} />
                   </div>
                 </Transition>
 
