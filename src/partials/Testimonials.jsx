@@ -38,7 +38,7 @@ function Testimonials () {
 
             {/* Testimonial 1 */}
             <div className="max-w-xl" data-aos="zoom-y-out">
-              <div className="relative flex items-start border-2 border-gray-200 rounded bg-white">
+              <div className="relative flex items-start border-4 border-gray-200 rounded bg-white">
                 <div className="text-center px-12 py-8 pt-20">
                   <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
                     <svg className="absolute top-0 right-0 -mt-3 -mr-8 w-16 h-16 fill-current text-[#00A5E9]" viewBox="0 0 64 64" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
@@ -60,7 +60,7 @@ function Testimonials () {
 
             {/* Testimonial 2 */}
             <div className="max-w-xl" data-aos="zoom-y-out">
-              <div className="relative flex items-start border-2 border-gray-200 rounded bg-white">
+              <div className="relative flex items-start border-4 border-gray-200 rounded bg-white">
                 <div className="text-center px-12 py-8 pt-20">
                   <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
                     <svg className="absolute top-0 right-0 -mt-3 -mr-8 w-16 h-16 fill-current text-[#00A5E9]" viewBox="0 0 64 64" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
