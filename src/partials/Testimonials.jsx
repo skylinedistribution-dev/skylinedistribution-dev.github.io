@@ -45,7 +45,7 @@ function Testimonials () {
                       <path d="M37.89 58.338c-2.648-5.63-3.572-10.045-2.774-13.249.8-3.203 8.711-13.383 23.737-30.538l2.135.532c-6.552 10.033-10.532 17.87-11.939 23.515-.583 2.34.22 6.158 2.41 11.457l-13.57 8.283zm-26.963-6.56c-2.648-5.63-3.572-10.046-2.773-13.25.799-3.203 8.71-13.382 23.736-30.538l2.136.533c-6.552 10.032-10.532 17.87-11.94 23.515-.583 2.339.22 6.158 2.41 11.456l-13.57 8.283z" />
                     </svg>
                   </div>
-                  <blockquote className="text-sm font-medium mb-4">
+                  <blockquote className="text-md font-medium mb-4">
                     &quot;As a business owner, I trust Skyline for all of my e-commerce needs.
                     They offer a wide variety of the hottest and most in-demand brands, which has greatly contributed to the success of my store.
                     I highly recommend Skyline if you are looking to increase your sales and stay ahead of the competition.&quot;
@@ -67,14 +67,14 @@ function Testimonials () {
                       <path d="M37.89 58.338c-2.648-5.63-3.572-10.045-2.774-13.249.8-3.203 8.711-13.383 23.737-30.538l2.135.532c-6.552 10.033-10.532 17.87-11.939 23.515-.583 2.34.22 6.158 2.41 11.457l-13.57 8.283zm-26.963-6.56c-2.648-5.63-3.572-10.046-2.773-13.25.799-3.203 8.71-13.382 23.736-30.538l2.136.533c-6.552 10.032-10.532 17.87-11.94 23.515-.583 2.339.22 6.158 2.41 11.456l-13.57 8.283z" />
                     </svg>
                   </div>
-                  <blockquote className="text-sm font-medium mb-4">
-                    &quot;Skyline&apos;s services have greatly streamlined my e-commerce business, allowing me to focus on growing my brand.
-                    Their team is extremely responsive and helpful, always going above and beyond to ensure my satisfaction.
-                    I strongly recommend Skyline to any business looking to expand their presence on Amazon.&quot;
+                  <blockquote className="text-md font-medium mb-4">
+                    &quot;Skyline Distribution has been a huge factor in the growth of our online business will continue to be so. 
+                    I can confidently say that Hagan & Carlos are great people to work with and it is clear that their top priority is the success of their clients. 
+                    I highly recommend working with them for you business needs.&quot;
                   </blockquote>
-                  <cite className="block font-bold text-lg not-italic mb-1">Rene Ruiz</cite>
+                  <cite className="block font-bold text-lg not-italic mb-1">Ryan del Rosario</cite>
                   <div className="text-gray-600">
-                    <span>CEO of Ecommerce</span> <a className="text-blue-600 hover:underline" href="#0"></a>
+                    <span>Owner of SF Ecom</span> <a className="text-blue-600 hover:underline" href="#0"></a>
                   </div>
                 </div>
 

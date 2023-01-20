@@ -26,18 +26,18 @@ function GetStarted() {
   return (
     <section className="relative" id="get-started">
       <div className="relative mx-auto px-4 sm:px-6 mb-8">
-        <div className="pt-12 md:pt-20">
+        <div className="pt-24">
 
           {/* Section header */}
-          <div className="max-w-5xl mx-auto text-center pb-16">
-            <h1 className="h2 mb-4">Get Started</h1>
-            <p className="text-xl text-gray-600">Whether you are a budding business or seasoned seller we&apos;ve got you covered.</p>
+          <div className="max-w-5xl mx-auto text-center pb-12">
+            <h1 className="h2 mb-4 text-sky-400">Get Started</h1>
+            <p className="text-xl text-gray-300">Whether you are a budding business or seasoned seller we&apos;ve got you covered.</p>
           </div>
 
           {/* Section content */}
-          <div className="w-full min-w-48 h-auto sm:h-[675px] lg:h-[450px]">
+          <div className="w-full min-w-48">
 
-            <div className="absolute inset-0 top-48 -bottom-8 bg-gray-900 pointer-events-none -z-1" aria-hidden="true"></div>
+            <div className="absolute inset-0 top-12 -bottom-8 bg-gray-900 pointer-events-none -z-1" aria-hidden="true"></div>
 
             <div className="md:grid md:grid-cols-12 md:gap-6 max-w-6xl mx-auto">
 
@@ -47,7 +47,7 @@ function GetStarted() {
                 {/* Tabs buttons */}
                 <div className="mb-8 md:mb-0">
                   <a
-                    className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 3 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-300 border-transparent'}`}
+                    className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-300 border-transparent'}`}
                     href="#0"
                     onClick={(e) => { e.preventDefault(); setTab(1) }}
                   >
@@ -58,7 +58,7 @@ function GetStarted() {
                   </a>
 
                   <a
-                    className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 3 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-300 border-transparent'}`}
+                    className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 2 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-300 border-transparent'}`}
                     href="#0"
                     onClick={(e) => { e.preventDefault(); setTab(2) }}
                   >
@@ -69,7 +69,7 @@ function GetStarted() {
                   </a>
 
                   <a
-                    className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-300 border-transparent'}`}
+                    className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 3 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-300 border-transparent'}`}
                     href="#0"
                     onClick={(e) => { e.preventDefault(); setTab(3) }}
                   >
@@ -80,7 +80,7 @@ function GetStarted() {
                   </a>
 
                   <a
-                    className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 2 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-300 border-transparent'}`}
+                    className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 4 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-300 border-transparent'}`}
                     href="#0"
                     onClick={(e) => { e.preventDefault(); setTab(4) }}
                   >
@@ -91,7 +91,7 @@ function GetStarted() {
                   </a>
 
                   <a
-                    className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 3 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-300 border-transparent'}`}
+                    className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 5 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-300 border-transparent'}`}
                     href="#0"
                     onClick={(e) => { e.preventDefault(); setTab(5) }}
                   >
@@ -176,7 +176,6 @@ function GetStarted() {
                       body={
                         <p className="text-gray-600 text-lg text-center pb-5">
                           Starting the journey of selling on Amazon can be overwhelming, but you don&apos;t have to go through it alone.
-                          Our team at Skyline has years of experience to help you start a life-changing business on Amazon.
                           <br /><br />
                           We will guide you through <strong>LLC Filing</strong>,<strong> Business Permit Applications</strong>,<strong> Amazon Seller Central Application</strong>,<strong> Account Setup/Navigation</strong>, and<strong> Business Email setup.</strong>
                         </p>}
@@ -203,10 +202,8 @@ function GetStarted() {
                       title="Ungating"
                       body={
                         <p className="text-gray-600 text-lg text-center pb-5">
-                          Finding profitable products in ungated categories can be difficult.
-                          At Skyline, our team of experts are here to assist you in overcoming these obstacles.
+                          At Skyline, our team of experts are here to assist you in ungating restricted products on Amazon to reduce competition and set you apart as a seller.
                           <br /> <br />
-                          We understand that gaining access to restricted products can greatly reduce competition and set you apart as a seller.
                           Let us help you on your journey to success and profitability on the Amazon platform.
                         </p>
                       }

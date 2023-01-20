@@ -50,7 +50,7 @@ function Products () {
           {/* Section header */}
           <div className="max-w-5xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h2 mb-4">Products</h1>
-            <p className="text-xl text-gray-600">Skyline Distribution offers best-selling products in the most popular Amazon categories.</p>
+            <p className="text-xl text-gray-600">Skyline Distribution offers best-selling products in the most popular Amazon categories. Here is a small selection of our largest products.</p>
           </div>
 
           {/* Section content */}
