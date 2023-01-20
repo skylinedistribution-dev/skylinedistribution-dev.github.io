@@ -2,7 +2,7 @@ import React from 'react'
 
 function Testimonials () {
   return (
-    <section className="relative">
+    <section className="relative" id="testimonials">
 
       {/* Illustration behind content */}
       <div className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none -mb-32" aria-hidden="true">
@@ -31,11 +31,10 @@ function Testimonials () {
           </div>
 
           <div className="flex flex-row justify-center items-center flex-wrap w-full gap-16">
-            {/* Testimonials */}
+
+            {/* Testimonial 1 */}
             <div className="max-w-3xl" data-aos="zoom-y-out">
               <div className="relative flex items-start border-2 border-gray-200 rounded bg-white">
-
-                {/* Testimonial */}
                 <div className="text-center px-12 py-8 pt-20">
                   <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
                     <svg className="absolute top-0 right-0 -mt-3 -mr-8 w-16 h-16 fill-current text-[#00A5E9]" viewBox="0 0 64 64" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
@@ -50,14 +49,12 @@ function Testimonials () {
                     <span>CEO of Automation Industries LLC</span> <a className="text-blue-600 hover:underline" href="#0"></a>
                   </div>
                 </div>
-
               </div>
             </div>
 
+            {/* Testimonial 2 */}
             <div className="max-w-3xl" data-aos="zoom-y-out">
               <div className="relative flex items-start border-2 border-gray-200 rounded bg-white">
-
-                {/* Testimonial */}
                 <div className="text-center px-12 py-8 pt-20">
                   <div className="absolute top-0 -mt-8 left-1/2 transform -translate-x-1/2">
                     <svg className="absolute top-0 right-0 -mt-3 -mr-8 w-16 h-16 fill-current text-[#00A5E9]" viewBox="0 0 64 64" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">

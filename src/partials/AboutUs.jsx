@@ -4,7 +4,7 @@ import Transition from '../utils/Transition'
 import NinjaSvg from '../images/ninja.svg'
 import SharkSvg from '../images/shark.svg'
 
-function Features () {
+function AboutUs () {
   const [tab, setTab] = useState(1)
 
   const tabs = useRef(null)
@@ -21,6 +21,24 @@ function Features () {
 
   return (
     <section className="relative">
+
+      {/* Illustration behind content */}
+      <div className="absolute left-1/2 transform -translate-x-1/2 top-48 pointer-events-none -mb-32" aria-hidden="true">
+        <svg width="1760" height="518" viewBox="0 0 1760 518" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="illustration-02">
+              <stop stopColor="#FFF" offset="0%" />
+              <stop stopColor="#EAEAEA" offset="77.402%" />
+              <stop stopColor="#DFDFDF" offset="100%" />
+            </linearGradient>
+          </defs>
+          <g transform="translate(0 -3)" fill="url(#illustration-02)" fillRule="evenodd">
+            <circle cx="1630" cy="128" r="128" />
+            <circle cx="178" cy="481" r="40" />
+          </g>
+        </svg>
+      </div>
+
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-12 md:pt-20">
 
@@ -28,8 +46,8 @@ function Features () {
           <div className="max-w-5xl mx-auto text-center pb-12 md:pb-16" id="about-us">
             <h1 className="h2 mb-4">About us</h1>
             <p className="text-xl text-gray-600">Skyline Distribution, based in Houston, Texas, specializes in providing wholesale clients with exceptional
-            products at competitive prices. We hold the utmost importance in ensuring that every client and customer who conducts business with us experiences
-            a safe and highly satisfactory transaction. We are dedicated to ensuring that our clients receive the growth and fulfillment they were promised.</p>
+              products at competitive prices. We hold the utmost importance in ensuring that every client and customer who conducts business with us experiences
+              a safe and highly satisfactory transaction. We are dedicated to ensuring that our clients receive the growth and fulfillment they were promised.</p>
           </div>
 
           {/* Section header */}
@@ -63,7 +81,7 @@ function Features () {
                   onClick={(e) => { e.preventDefault(); setTab(2) }}
                 >
 
-                <div className="font-bold leading-snug tracking-tight mb-1">Home and Kitchen</div>
+                  <div className="font-bold leading-snug tracking-tight mb-1">Home and Kitchen</div>
 
                 </a>
                 <a
@@ -71,7 +89,7 @@ function Features () {
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(3) }}
                 >
-                <div className="font-bold leading-snug tracking-tight mb-1">Sports and Outdoors</div>
+                  <div className="font-bold leading-snug tracking-tight mb-1">Sports and Outdoors</div>
                 </a>
 
                 <a
@@ -79,7 +97,7 @@ function Features () {
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(4) }}
                 >
-                <div className="font-bold leading-snug tracking-tight mb-1">Small Appliances</div>
+                  <div className="font-bold leading-snug tracking-tight mb-1">Small Appliances</div>
                 </a>
 
                 <a
@@ -87,7 +105,7 @@ function Features () {
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(5) }}
                 >
-                <div className="font-bold leading-snug tracking-tight mb-1">Electronics</div>
+                  <div className="font-bold leading-snug tracking-tight mb-1">Electronics</div>
                 </a>
 
               </div>
@@ -198,4 +216,4 @@ function Features () {
   )
 }
 
-export default Features
+export default AboutUs

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import FeaturesHome from '../partials/Features'
+import AboutUs from '../partials/AboutUs'
 import Footer from '../partials/Footer'
 import GetStarted from '../partials/GetStarted'
 import Header from '../partials/Header'
@@ -11,17 +11,14 @@ function Home () {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden">
       <Header />
-      <main className="flex-grow">
 
-        {/*  Page sections */}
+      <main className="flex-grow">
         <HeroHome />
-        <FeaturesHome />
+        <AboutUs />
         <GetStarted />
         <Testimonials />
-
       </main>
 
-      {/*  Site footer */}
       <Footer />
 
     </div>
