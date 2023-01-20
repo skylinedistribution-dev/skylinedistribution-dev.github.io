@@ -1,5 +1,5 @@
 import React from 'react'
-import SkylineLogoSVG from '../images/skylineLogoSVG.svg'
+import SkylineLogoSVG from '../images/skylineLogo.svg'
 
 function HeroHome () {
   return (
@@ -22,17 +22,17 @@ function HeroHome () {
         </svg>
       </div>
 
-      <div className="max-w-8xl mx-auto px-3 sm:px-6" >
+      <div className="max-w-8xl mx-auto px-3 sm:px-5" >
 
         {/* Hero content */}
-        <div className="pt-32">
+        <div className="pt-[55px]">
         <div className="absolute inset-0 bg-gray-900 pointer-events-none z-0" aria-hidden="true"></div>
 
           {/* Section header */}
           <div className="text-center pb-10 md:pb-16 z-1">
             <img className="relative mx-auto w-3/5" src={SkylineLogoSVG} alt="Skyline Distribution"/>
             <div className="mx-auto">
-              <p className="italic text-gray-400 mb-8 text-sm sm:text-3xl" data-aos="zoom-y-out" data-aos-delay="150">The world&apos;s leading distributor for all of the biggest brands</p>
+              <p className="italic text-gray-400 text-sm sm:text-3xl pb-[15px]" data-aos="zoom-y-out" data-aos-delay="150">The world&apos;s leading distributor for all of the biggest brands</p>
             </div>
           </div>
 

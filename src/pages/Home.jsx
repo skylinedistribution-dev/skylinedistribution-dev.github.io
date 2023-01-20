@@ -1,7 +1,6 @@
 import React from 'react'
 
 import AboutUs from '../partials/AboutUs'
-import AdditionalServices from '../partials/AdditionalServices'
 import Footer from '../partials/Footer'
 import GetStarted from '../partials/GetStarted'
 import Header from '../partials/Header'
@@ -20,7 +19,6 @@ function Home () {
         <Products />
         <GetStarted />
         <Testimonials />
-        <AdditionalServices />
       </main>
 
       <Footer />
