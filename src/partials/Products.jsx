@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import Transition from '../utils/Transition'
 
 import GoliPng from '../images/goli.png'
-import MaryRuthsPng from '../images/mary_ruths.png'
+import MaryRuthsSvg from '../images/mary_ruths.svg'
 import NewChapterPng from '../images/new_chapter.png'
 
 import iRobotSvg from '../images/iRobot.svg'
@@ -173,9 +173,9 @@ function Products () {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative flex flex-col items-center justify-evenly h-full">
-                    <img className="max-w-[60%] mb-0 md:mb-[-30px]" src={GoliPng} />
+                    <img className="max-w-[60%] mb-0 md:mb-[-10px]" src={GoliPng} />
                     <img className="max-w-[60%] mb-12 md:mb-0 rounded-md" src={NewChapterPng} />
-                    <img className="max-w-[60%] mb-12 md:mb-0" src={MaryRuthsPng} />
+                    <img className="max-w-[60%] mb-12 md:mb-0" src={MaryRuthsSvg} />
                   </div>
                 </Transition>
 
