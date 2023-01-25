@@ -205,8 +205,8 @@ function GetStarted () {
                           As a new or even experienced seller, having restrictions in certain items you are looking to sell can be aggravating and hurt business growth. We have helped many sellers get approved for the items they are looking to sell. Please fill out the form below to get started. Please advise for a 24-48 hour window for a specific quote sent to you via email. We offer a full money back guarantee if our services are unsuccessful.
                         </p>
                       }
-                      button="Book a Call with our Ungating Specialists"
-                      href="https://calendly.com/skyline-distribution/ungating-services"
+                      button="Ungating Inquiry Form"
+                      href="https://forms.gle/vTaPQsapSrMUz6Ct8"
                       big
                     />
                   </Transition>
