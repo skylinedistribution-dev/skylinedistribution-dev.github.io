@@ -39,15 +39,15 @@ function GetStarted () {
 
             <div className="absolute inset-0 top-12 -bottom-8 bg-gray-900 pointer-events-none -z-1" aria-hidden="true"></div>
 
-            <div className="md:grid md:grid-cols-12 md:gap-6 max-w-6xl mx-auto">
+            <div className="lg:grid lg:grid-cols-12 lg:gap-6 max-w-6xl mx-auto">
 
               {/* Content */}
-              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
+              <div className="max-w-xl lg:max-w-none lg:w-full mx-auto lg:col-span-6" data-aos="fade-right">
 
                 {/* Tabs buttons */}
-                <div className="mb-8 md:mb-0">
+                <div className="mb-8 lg:mb-0">
                   <a
-                    className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-300 border-transparent'}`}
+                    className={`flex items-center text-lg p-3 sm:p-5 rounded border transition duration-300 ease-in-out mb-1 sm:mb-5 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-300 border-transparent'}`}
                     href="#0"
                     onClick={(e) => { e.preventDefault(); setTab(1) }}
                   >
@@ -58,7 +58,7 @@ function GetStarted () {
                   </a>
 
                   <a
-                    className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 2 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-300 border-transparent'}`}
+                    className={`flex items-center text-lg p-3 sm:p-5 rounded border transition duration-300 ease-in-out mb-1 sm:mb-5 ${tab !== 2 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-300 border-transparent'}`}
                     href="#0"
                     onClick={(e) => { e.preventDefault(); setTab(2) }}
                   >
@@ -69,18 +69,18 @@ function GetStarted () {
                   </a>
 
                   <a
-                    className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 3 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-300 border-transparent'}`}
+                    className={`flex items-center text-lg p-3 sm:p-5 rounded border transition duration-300 ease-in-out mb-1 sm:mb-5 ${tab !== 3 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-300 border-transparent'}`}
                     href="#0"
                     onClick={(e) => { e.preventDefault(); setTab(3) }}
                   >
                     <div className="w-full flex justify-between font-bold leading-snug tracking-tight mb-1">
-                      <div>Amazon Seller Startup</div>
+                      <div>$199 Amazon Seller Central Startup</div>
                       <InventoryIcon />
                     </div>
                   </a>
 
                   <a
-                    className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 4 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-300 border-transparent'}`}
+                    className={`flex items-center text-lg p-3 sm:p-5 rounded border transition duration-300 ease-in-out mb-1 sm:mb-5 ${tab !== 4 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-300 border-transparent'}`}
                     href="#0"
                     onClick={(e) => { e.preventDefault(); setTab(4) }}
                   >
@@ -91,7 +91,7 @@ function GetStarted () {
                   </a>
 
                   <a
-                    className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 5 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-300 border-transparent'}`}
+                    className={`flex items-center text-lg p-3 sm:p-5 rounded border transition duration-300 ease-in-out ${tab !== 5 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-300 border-transparent'}`}
                     href="#0"
                     onClick={(e) => { e.preventDefault(); setTab(5) }}
                   >
@@ -105,8 +105,8 @@ function GetStarted () {
               </div>
 
               {/* Tabs items */}
-              <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="zoom-y-out" ref={tabs}>
-                <div className="relative flex flex-col text-center lg:text-right h-full">
+              <div className="max-w-xl lg:max-w-none lg:w-full mx-auto lg:col-span-6 mb-8 lg:mb-0 lg:order-1" data-aos="zoom-y-out" ref={tabs}>
+                <div className="relative flex flex-col text-center xl:text-right h-full">
 
                   {/* Item 1 */}
                   <Transition
@@ -172,15 +172,15 @@ function GetStarted () {
                   >
                     <ClickableCard
                       icon={<InventoryIcon fontSize="large" sx={{ color: 'white' }} />}
-                      title="Amazon Seller Startup"
+                      title="$199 Amazon Seller Central Startup"
                       body={
                         <p className="text-gray-600 text-lg text-center pb-5">
                           Starting the journey of selling on Amazon can be overwhelming, but you don&apos;t have to go through it alone.
                           <br /><br />
                           We will guide you through <strong>LLC Filing</strong>,<strong> Business Permit Applications</strong>,<strong> Amazon Seller Central Application</strong>,<strong> Account Setup/Navigation</strong>, and<strong> Business Email setup.</strong>
                         </p>}
-                      button="Book a Call with our Amazon Startup Specialists"
-                      href="https://calendly.com/skyline-distribution/amazon-seller-startup"
+                      button="Amazon Seller Central Startup Inquiry Form"
+                      href="https://forms.gle/1QsceUPN25xvSgPy6"
                       big
                     />
                   </Transition>
@@ -201,10 +201,8 @@ function GetStarted () {
                       icon={<LockOpenIcon fontSize="large" sx={{ color: 'white' }} />}
                       title="Ungating"
                       body={
-                        <p className="text-gray-600 text-lg text-center pb-5">
-                          At Skyline, our team of experts are here to assist you in ungating restricted products on Amazon to reduce competition and set you apart as a seller.
-                          <br /> <br />
-                          Let us help you on your journey to success and profitability on the Amazon platform.
+                        <p className="text-gray-600 text-lg text-center pb-2">
+                          As a new or even experienced seller, having restrictions in certain items you are looking to sell can be aggravating and hurt business growth. We have helped many sellers get approved for the items they are looking to sell. Please fill out the form below to get started. Please advise for a 24-48 hour window for a specific quote sent to you via email. We offer a full money back guarantee if our services are unsuccessful.
                         </p>
                       }
                       button="Book a Call with our Ungating Specialists"

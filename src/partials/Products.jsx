@@ -80,7 +80,7 @@ function Products () {
               <div className="mb-8 md:mb-0">
 
               <a
-                  className={`flex items-center text-lg p-5 rounded border-2 transition duration-300 ease-in-out mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  className={`flex items-center text-lg p-3 sm:p-5 rounded border-2 transition duration-300 ease-in-out mb-1 sm:mb-3 ${tab !== 1 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(1) }}
                 >
@@ -91,7 +91,7 @@ function Products () {
                 </a>
 
                 <a
-                  className={`flex items-center text-lg p-5 rounded border-2 transition duration-300 ease-in-out mb-3 ${tab !== 2 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  className={`flex items-center text-lg p-3 sm:p-5 rounded border-2 transition duration-300 ease-in-out mb-1 sm:mb-3 ${tab !== 2 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(2) }}
                 >
@@ -102,7 +102,7 @@ function Products () {
                 </a>
 
                 <a
-                  className={`flex items-center text-lg p-5 rounded border-2 transition duration-300 ease-in-out mb-3 ${tab !== 3 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  className={`flex items-center text-lg p-3 sm:p-5 rounded border-2 transition duration-300 ease-in-out mb-1 sm:mb-3 ${tab !== 3 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(3) }}
                 >
@@ -113,7 +113,7 @@ function Products () {
                 </a>
 
                 <a
-                  className={`flex items-center text-lg p-5 rounded border-2 transition duration-300 ease-in-out mb-3 ${tab !== 4 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  className={`flex items-center text-lg p-3 sm:p-5 rounded border-2 transition duration-300 ease-in-out mb-1 sm:mb-3 ${tab !== 4 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(4) }}
                 >
@@ -124,7 +124,7 @@ function Products () {
                 </a>
 
                 <a
-                  className={`flex items-center text-lg p-5 rounded border-2 transition duration-300 ease-in-out mb-3 ${tab !== 5 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
+                  className={`flex items-center text-lg p-3 sm:p-5 rounded border-2 transition duration-300 ease-in-out ${tab !== 5 ? 'bg-white shadow-md border-gray-200 hover:shadow-lg' : 'bg-gray-200 border-transparent'}`}
                   href="#0"
                   onClick={(e) => { e.preventDefault(); setTab(5) }}
                 >
@@ -173,9 +173,9 @@ function Products () {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative flex flex-col items-center justify-evenly h-full">
-                    <img className="max-w-[60%] mb-0 md:mb-[-10px]" src={GoliPng} />
-                    <img className="max-w-[60%] mb-12 md:mb-0 rounded-md" src={NewChapterPng} />
-                    <img className="max-w-[60%] mb-12 md:mb-0" src={MaryRuthsSvg} />
+                    <img className="max-w-[50%] mb-0 md:mb-[-10px]" src={GoliPng} />
+                    <img className="max-w-[45%] mb-12 md:mb-0 rounded-md" src={NewChapterPng} />
+                    <img className="max-w-[50%] mb-12 md:mb-0" src={MaryRuthsSvg} />
                   </div>
                 </Transition>
 
