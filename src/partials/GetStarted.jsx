@@ -180,7 +180,7 @@ function GetStarted () {
                           We will guide you through <strong>LLC Filing</strong>,<strong> Business Permit Applications</strong>,<strong> Amazon Seller Central Application</strong>,<strong> Account Setup/Navigation</strong>, and<strong> Business Email setup.</strong>
                         </p>}
                       button="Amazon Seller Central Startup Inquiry Form"
-                      href="https://forms.gle/2SefzvUSbX5c8y559"
+                      href="https://forms.gle/7zC1YX1jeksNurFc8"
                       big
                     />
                   </Transition>
