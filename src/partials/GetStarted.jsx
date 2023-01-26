@@ -74,7 +74,7 @@ function GetStarted () {
                     onClick={(e) => { e.preventDefault(); setTab(3) }}
                   >
                     <div className="w-full flex justify-between font-bold leading-snug tracking-tight mb-1">
-                      <div>$199 Amazon Seller Central Startup</div>
+                      <div>Amazon Seller Central Startup</div>
                       <InventoryIcon />
                     </div>
                   </a>
@@ -108,7 +108,7 @@ function GetStarted () {
               <div className="max-w-xl lg:max-w-none lg:w-full mx-auto lg:col-span-6 mb-8 lg:mb-0 lg:order-1" data-aos="zoom-y-out" ref={tabs}>
                 <div className="relative flex flex-col text-center xl:text-right h-full">
 
-                  {/* Item 1 */}
+                  {/* Distribution */}
                   <Transition
                     show={tab === 1}
                     appear={true}
@@ -125,14 +125,15 @@ function GetStarted () {
                       title="Distribution"
                       body={
                         <p className="text-gray-600 text-lg text-center pb-5">
-                          We have a comprehensive catalog of Amazon&apos;s best-selling products. Interested in our distribution services? Fill out this form below to get started.
+                          We have a comprehensive catalog of Amazon&apos;s best-selling products. 
+                          Interested in our distribution services? Fill out this form below to get started.
                         </p>}
                       button="Distribution Inquiry Form"
                       href="https://forms.gle/vxVA4yMwKYhmp2yf6"
                     />
                   </Transition>
 
-                  {/* Item 2 */}
+                  {/* Fulfillment */}
                   <Transition
                     show={tab === 2}
                     appear={true}
@@ -158,7 +159,7 @@ function GetStarted () {
                     />
                   </Transition>
 
-                  {/* Item 3 */}
+                  {/* Amazon Seller Startup */}
                   <Transition
                     show={tab === 3}
                     appear={true}
@@ -172,12 +173,13 @@ function GetStarted () {
                   >
                     <ClickableCard
                       icon={<InventoryIcon fontSize="large" sx={{ color: 'white' }} />}
-                      title="$199 Amazon Seller Central Startup"
+                      title="Amazon Seller Central Startup"
                       body={
                         <p className="text-gray-600 text-lg text-center pb-5">
                           Starting the journey of selling on Amazon can be overwhelming, but you don&apos;t have to go through it alone.
                           <br /><br />
-                          We will guide you through <strong>LLC Filing</strong>,<strong> Business Permit Applications</strong>,<strong> Amazon Seller Central Application</strong>,<strong> Account Setup/Navigation</strong>, and<strong> Business Email setup.</strong>
+                          Our team of experts will guide you through the creation and filing of your Amazon Seller Central account. 
+                          In addition, we will help you navigate and become familiar with the seller portal and teach you how to list your first product. 
                         </p>}
                       button="Amazon Seller Central Startup Inquiry Form"
                       href="https://forms.gle/7zC1YX1jeksNurFc8"
@@ -185,7 +187,7 @@ function GetStarted () {
                     />
                   </Transition>
 
-                  {/* Item 4 */}
+                  {/* Ungating */}
                   <Transition
                     show={tab === 4}
                     appear={true}
@@ -211,7 +213,7 @@ function GetStarted () {
                     />
                   </Transition>
 
-                  {/* Item 5 */}
+                  {/* Account Health */}
                   <Transition
                     show={tab === 5}
                     appear={true}
