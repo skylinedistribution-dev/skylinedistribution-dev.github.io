@@ -236,8 +236,8 @@ function GetStarted () {
                           Let us help you get back to selling better than ever!
                         </p>
                       }
-                      button="Book a Call with our Account Health Specialists"
-                      href="https://calendly.com/skyline-distribution/account-health-services"
+                      button="Chat with our Account Health Expert"
+                      href="https://t.me/Angie28x"
                       big
                     />
                   </Transition>
