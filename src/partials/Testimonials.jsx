@@ -25,7 +25,7 @@ function Testimonials () {
         </div> */}
 
         <div className="mx-auto px-4 sm:px-6">
-          <div className="py-12 md:py-20">
+          <div className="py-14 md:py-24">
 
             {/* Section header */}
             <div className="max-w-6xl mx-auto text-center pb-12 md:pb-16">

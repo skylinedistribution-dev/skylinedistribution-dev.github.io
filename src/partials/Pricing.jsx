@@ -1,13 +1,13 @@
 function Pricing () {
     return (
         <div id="pricing">
-            <section className="bg-white text-gray-100">
+            <section className="bg-white text-gray-100 max-w-6xl mx-auto">
                 <div className="max-w-5xl mx-auto text-center py-12">
-                    <h1 className="h2 mb-4 pt-10 text-black">Fulfillment Pricing Plans</h1>
-                    <p className="text-xl text-gray-600">
+                    <h1 className="h2 mb-2 pt-10 text-black">Fulfillment Pricing Plans</h1>
+                    <p className="text-xl text-gray-600 mx-2">
                         We offer a simple and transparent volume-based pricing model with no hidden fees. 
                     </p>
-                    <p className="text-sm pt-3 text-gray-600">
+                    <p className="text-sm pt-3 text-gray-600 mx-2">
                         You will be charged based on your usage after a period of 30 days. 
                         Contact us for custom pricing for stores shipping more than 6000 units per month.
                     </p>
