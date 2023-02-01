@@ -52,7 +52,7 @@ function GetStarted () {
                     onClick={(e) => { e.preventDefault(); setTab(1) }}
                   >
                     <div className="w-full flex justify-between font-bold leading-snug tracking-tight mb-1">
-                      <div>Distribution</div>
+                      <div>Wholesale</div>
                       <WarehouseIcon />
                     </div>
                   </a>
@@ -108,7 +108,7 @@ function GetStarted () {
               <div className="max-w-xl lg:max-w-none lg:w-full mx-auto lg:col-span-6 mb-8 lg:mb-0 lg:order-1" data-aos="zoom-y-out" ref={tabs}>
                 <div className="relative flex flex-col text-center xl:text-right h-full">
 
-                  {/* Distribution */}
+                  {/* Wholesale */}
                   <Transition
                     show={tab === 1}
                     appear={true}
@@ -122,13 +122,13 @@ function GetStarted () {
                   >
                     <ClickableCard
                       icon={<WarehouseIcon fontSize="large" sx={{ color: 'white' }} />}
-                      title="Distribution"
+                      title="Wholesale"
                       body={
                         <p className="text-gray-600 text-lg text-center pb-5">
                           We have a comprehensive catalog of Amazon&apos;s best-selling products. 
-                          Interested in our distribution services? Fill out this form below to get started.
+                          Interested in our wholesale services? Fill out this form below to get started.
                         </p>}
-                      button="Distribution Inquiry Form"
+                      button="Wholesale Inquiry Form"
                       href="https://forms.gle/vxVA4yMwKYhmp2yf6"
                     />
                   </Transition>
