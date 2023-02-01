@@ -26,7 +26,7 @@ function GetStarted () {
   return (
     <section className="relative" id="get-started">
       <div className="relative mx-auto px-4 sm:px-6 mb-8">
-        <div className="pt-24">
+        <div className="pt-24 pb-5">
 
           {/* Section header */}
           <div className="max-w-5xl mx-auto text-center pb-12">

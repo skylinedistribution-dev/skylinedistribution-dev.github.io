@@ -4,10 +4,10 @@ import skylineLogo from '../images/skylineLogoWhite.svg'
 function Footer () {
   return (
     <footer>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 ">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
 
         {/* Top area: Blocks */}
-        <div className="grid grid-cols-2 border-t border-gray-200">
+        <div className="grid grid-cols-2 border-t border-gray-200 py-5">
 
           {/* 1st block */}
           <div className="flex justify-center items-center">

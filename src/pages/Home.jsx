@@ -6,6 +6,7 @@ import GetStarted from '../partials/GetStarted'
 import Header from '../partials/Header'
 import HeroHome from '../partials/HeroHome'
 import Products from '../partials/Products'
+import Pricing from '../partials/Pricing'
 import Testimonials from '../partials/Testimonials'
 
 function Home () {
@@ -18,6 +19,7 @@ function Home () {
         <AboutUs />
         <Products />
         <GetStarted />
+        <Pricing />
         <Testimonials />
       </main>
 

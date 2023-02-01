@@ -13,6 +13,9 @@ function NavMenu () {
       <li>
         <HashLink to="#testimonials" className="font-medium text-lg text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Testimonials</HashLink>
       </li>
+      <li>
+        <HashLink to="#pricing" className="font-medium text-lg text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out">Pricing</HashLink>
+      </li>
     </>
   )
 };
