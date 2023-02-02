@@ -75,6 +75,15 @@ function Pricing () {
                                 <th scope="row" className="text-left">
                                     <h3 className="py-3 text-sky-500">Add Ons</h3>
                                 </th>
+                                <td>
+                                    <span className="block text-sm text-black"></span>
+                                </td>
+                                <td>
+                                    <span className="block text-sm text-black"></span>
+                                </td>
+                                <td>
+                                    <span className="block text-sm text-black"></span>
+                                </td>
                             </tr>
                             <tr>
                                 <th scope="row" className="text-left">
