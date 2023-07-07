@@ -4,7 +4,8 @@ import Transition from '../utils/Transition'
 // Home and Kitchen
 import HamiltonBeachSvg from '../images/hamilton_beach.svg'
 import BrentwoodJpg from '../images/brentwood.jpg'
-import LiquidIvPng from '../images/liquid_iv.png'
+import MarthaStewartPng from '../images/marthastewart.png'
+// import LiquidIvPng from '../images/liquid_iv.png'
 // import KeurigSvg from '../images/keurig.svg'
 // import iRobotSvg from '../images/iRobot.svg'
 // import NinjaSvg from '../images/ninja.svg'
@@ -167,7 +168,7 @@ function Products () {
                   <div className="relative flex flex-col items-center justify-evenly h-full">
                     <img className="w-[60%] mt-12 md:mt-5 mb-20 md:mb-0" src={HamiltonBeachSvg} />
                     <img className="w-[60%] mb-20 md:mb-0" src={BrentwoodJpg} />
-                    <img className="w-[55%] mb-16 md:mb-0" src={LiquidIvPng} />
+                    <img className="w-[50%] mb-0 md:mb-0" src={MarthaStewartPng} />
                   </div>
                 </Transition>
 
