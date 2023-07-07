@@ -1,28 +1,37 @@
 import React, { useEffect, useRef, useState } from 'react'
 import Transition from '../utils/Transition'
 
-import GoliPng from '../images/goli.png'
-import MaryRuthsSvg from '../images/mary_ruths.svg'
-import NewChapterPng from '../images/new_chapter.png'
-
-import iRobotSvg from '../images/iRobot.svg'
-import NinjaSvg from '../images/ninja.svg'
-import SharkSvg from '../images/shark.svg'
-import DelonghiSvg from '../images/delonghi.svg'
-import KeurigSvg from '../images/keurig.svg'
-
-import CelestronSvg from '../images/celestron.svg'
-import LiquidIvPng from '../images/liquid_iv.png'
-import SegwaySvg from '../images/segway.svg'
-
-import BrevilleSvg from '../images/breville.svg'
+// Home and Kitchen
 import HamiltonBeachSvg from '../images/hamilton_beach.svg'
-import NespressoSvg from '../images/nespresso.svg'
+import BrentwoodJpg from '../images/brentwood.jpg'
+import LiquidIvPng from '../images/liquid_iv.png'
+// import KeurigSvg from '../images/keurig.svg'
+// import iRobotSvg from '../images/iRobot.svg'
+// import NinjaSvg from '../images/ninja.svg'
+// import SharkSvg from '../images/shark.svg'
+// import DelonghiSvg from '../images/delonghi.svg'
 
+// Health and Household
+import GoliPng from '../images/goli.png'
+import NewChapterPng from '../images/new_chapter.png'
+import MaryRuthsSvg from '../images/mary_ruths.svg'
+
+// Sports and Outdoors
+import CelestronSvg from '../images/celestron.svg'
+import SegwaySvg from '../images/segway.svg'
+import AthlonPng from '../images/athlon.png'
+
+// Small Appliances
+import NespressoSvg from '../images/nespresso.svg'
+import OsterPng from '../images/oster.png'
+// import BrevilleSvg from '../images/breville.svg'
+
+// Electronics
 import GoogleSvg from '../images/google.svg'
 import NintendoSvg from '../images/nintendo.svg'
 import SceptreSvg from '../images/sceptre.svg'
 
+// Icons
 import GolfCourseIcon from '@mui/icons-material/GolfCourse'
 import HomeIcon from '@mui/icons-material/Home'
 import MicrowaveIcon from '@mui/icons-material/Microwave'
@@ -157,8 +166,8 @@ function Products () {
                 >
                   <div className="relative flex flex-col items-center justify-evenly h-full">
                     <img className="w-[60%] mt-12 md:mt-5 mb-20 md:mb-0" src={HamiltonBeachSvg} />
-                    <img className="w-[60%] mb-20 md:mb-0" src={DelonghiSvg} />
-                    <img className="w-[55%] mb-16 md:mb-0" src={KeurigSvg} />
+                    <img className="w-[60%] mb-20 md:mb-0" src={BrentwoodJpg} />
+                    <img className="w-[55%] mb-16 md:mb-0" src={LiquidIvPng} />
                   </div>
                 </Transition>
 
@@ -196,7 +205,7 @@ function Products () {
                   <div className="relative flex flex-col items-center justify-evenly h-full">
                     <img className="w-[50%] mb-14 md:mb-8" src={SegwaySvg} />
                     <img className="w-[60%] mb-14 md:mb-5" src={CelestronSvg} />
-                    <img className="w-[55%] mb-6 md:mb-0" src={LiquidIvPng} />
+                    <img className="w-[60%] mb-6 md:mb-0" src={AthlonPng} />
                   </div>
                 </Transition>
 
@@ -214,8 +223,8 @@ function Products () {
                 >
                   <div className="relative flex flex-col items-center justify-evenly h-full">
                     <img className="w-[60%] mt-10 md:mt-5 mb-20 md:mb-0" src={HamiltonBeachSvg} />
-                    <img className="w-[60%] mb-20 md:mb-0" src={BrevilleSvg} />
-                    <img className="w-[65%] mb-20 md:mb-0" src={NespressoSvg} />
+                    <img className="w-[55%] mb-20 md:mb-0" src={NespressoSvg} />
+                    <img className="w-[30%] mb-20 md:mb-0" src={OsterPng} />
                   </div>
                 </Transition>
 
