@@ -204,9 +204,9 @@ function Products () {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative flex flex-col items-center justify-evenly h-full">
-                    <img className="w-[50%] mb-14 md:mb-8" src={SegwaySvg} />
-                    <img className="w-[60%] mb-14 md:mb-5" src={CelestronSvg} />
-                    <img className="w-[60%] mb-6 md:mb-0" src={AthlonPng} />
+                    <img className="w-[60%] mb-14 md:mb-8" src={SegwaySvg} />
+                    <img className="w-[65%] mb-14 md:mb-5" src={CelestronSvg} />
+                    {/* <img className="w-[60%] mb-6 md:mb-0" src={AthlonPng} /> */}
                   </div>
                 </Transition>
 
