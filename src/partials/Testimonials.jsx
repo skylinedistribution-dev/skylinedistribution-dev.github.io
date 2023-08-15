@@ -72,7 +72,7 @@ function Testimonials () {
                     </div>
                     <blockquote className="text-md font-medium mb-4">
                       &quot;Skyline Distribution has been a huge factor in the growth of our online business will continue to be so.
-                      I can confidently say that Hagan & Carlos are great people to work with and it is clear that their top priority is the success of their clients.
+                      I can confidently say that they are great people to work with and it is clear that their top priority is the success of their clients.
                       I highly recommend working with them for you business needs.&quot;
                     </blockquote>
                     <cite className="block font-bold text-lg not-italic mb-1">Ryan del Rosario</cite>
