@@ -8,6 +8,7 @@ import HeroHome from '../partials/HeroHome'
 import Products from '../partials/Products'
 import Pricing from '../partials/Pricing'
 import Testimonials from '../partials/Testimonials'
+import ConnectWithUs from '../partials/ConnectWithUs'
 
 function Home () {
   return (
@@ -21,6 +22,7 @@ function Home () {
         <GetStarted />
         <Pricing />
         <Testimonials />
+        <ConnectWithUs />
       </main>
 
       <Footer />
