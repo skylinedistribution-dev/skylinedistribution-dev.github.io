@@ -2,9 +2,10 @@ import React, { useEffect, useRef, useState } from 'react'
 import Transition from '../utils/Transition'
 
 // Home and Kitchen
-import HamiltonBeachSvg from '../images/hamilton_beach.svg'
+import perfectwerksPng from '../images/perfectwerks.png'
 import BrentwoodJpg from '../images/brentwood.jpg'
-import MarthaStewartPng from '../images/marthastewart.png'
+import UsaPan from '../images/usapan.webp'
+
 // import LiquidIvPng from '../images/liquid_iv.png'
 // import KeurigSvg from '../images/keurig.svg'
 // import iRobotSvg from '../images/iRobot.svg'
@@ -13,8 +14,8 @@ import MarthaStewartPng from '../images/marthastewart.png'
 // import DelonghiSvg from '../images/delonghi.svg'
 
 // Health and Household
-import GoliPng from '../images/goli.png'
-import NewChapterPng from '../images/new_chapter.png'
+import SilverBioticsPng from '../images/SilverBiotics.png'
+import gasparinutrition from '../images/gasparinutrition.jpeg'
 import MaryRuthsSvg from '../images/mary_ruths.svg'
 
 // Sports and Outdoors
@@ -166,9 +167,9 @@ function Products () {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative flex flex-col items-center justify-evenly h-full">
-                    <img className="w-[60%] mt-12 md:mt-5 mb-20 md:mb-0" src={HamiltonBeachSvg} />
+                    <img className="w-[60%] mt-12 md:mt-5 mb-20 md:mb-0" src={perfectwerksPng} />
+                    <img className="w-[50%] mb-0 md:mb-0" src={UsaPan} />
                     <img className="w-[60%] mb-20 md:mb-0" src={BrentwoodJpg} />
-                    <img className="w-[50%] mb-0 md:mb-0" src={MarthaStewartPng} />
                   </div>
                 </Transition>
 
@@ -185,8 +186,8 @@ function Products () {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative flex flex-col items-center justify-evenly h-full">
-                    <img className="max-w-[40%] mt-2 md:mt-0 mb-8 md:mb-2" src={GoliPng} />
-                    <img className="max-w-[40%] mb-10 md:mb-5 rounded-md" src={NewChapterPng} />
+                    <img className="max-w-[40%] mt-2 md:mt-0 mb-8 md:mb-2" src={SilverBioticsPng} />
+                    <img className="max-w-[40%] mb-10 md:mb-5 rounded-md" src={gasparinutrition} />
                     <img className="max-w-[50%] mb-0 md:mb-0" src={MaryRuthsSvg} />
                   </div>
                 </Transition>
@@ -223,7 +224,7 @@ function Products () {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative flex flex-col items-center justify-evenly h-full">
-                    <img className="w-[60%] mt-10 md:mt-5 mb-20 md:mb-0" src={HamiltonBeachSvg} />
+                    {/* <img className="w-[60%] mt-10 md:mt-5 mb-20 md:mb-0" src={perfectwerksPng} /> */}
                     <img className="w-[55%] mb-20 md:mb-0" src={NespressoSvg} />
                     <img className="w-[30%] mb-20 md:mb-0" src={OsterPng} />
                   </div>

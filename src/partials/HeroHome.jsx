@@ -32,7 +32,7 @@ function HeroHome () {
           <div className="text-center pb-10 md:pb-16 z-1">
             <img className="relative mx-auto w-3/5" src={SkylineLogoSVG} alt="Skyline Distribution"/>
             <div className="mx-auto">
-              <p className="italic text-gray-400 text-sm sm:text-3xl pb-[15px]" data-aos="zoom-y-out" data-aos-delay="150">The world&apos;s leading distributor for all of the biggest brands</p>
+              <p className="italic text-gray-400 text-sm sm:text-3xl pb-[15px]" data-aos="zoom-y-out" data-aos-delay="150">The Nations Leading distributor for Top Selling brands</p>
             </div>
           </div>
 

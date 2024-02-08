@@ -49,13 +49,13 @@ function Testimonials () {
                       </svg>
                     </div>
                     <blockquote className="text-md font-medium mb-4">
-                      &quot;As a business owner, I trust Skyline for all of my e-commerce needs.
-                      They offer a wide variety of the hottest and most in-demand brands, which has greatly contributed to the success of my store.
-                      I highly recommend Skyline if you are looking to increase your sales and stay ahead of the competition.&quot;
+                      &quot;As a business proprietor, I rely on Skyline to fulfill all my e-commerce requirements. 
+                      They provide an extensive range of the latest and most sought-after brands, significantly contributing to the prosperity of my store. 
+                      If you aim to boost your sales and stay ahead of the competition, I wholeheartedly endorse Skyline.&quot;
                     </blockquote>
-                    <cite className="block font-bold text-lg not-italic mb-1">Jason Masri</cite>
+                    <cite className="block font-bold text-lg not-italic mb-1">Lyth Elkour</cite>
                     <div className="text-gray-600">
-                      <span>CEO of Automation Industries LLC</span> <a className="text-blue-600 hover:underline" href="#0"></a>
+                      <span>Owner of Elkour Enterprises</span> <a className="text-blue-600 hover:underline" href="#0"></a>
                     </div>
                   </div>
                 </div>
