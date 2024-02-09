@@ -168,8 +168,8 @@ function Products () {
                 >
                   <div className="relative flex flex-col items-center justify-evenly h-full">
                     <img className="w-[60%] mt-12 md:mt-5 mb-20 md:mb-0" src={perfectwerksPng} />
-                    <img className="w-[50%] mb-0 md:mb-0" src={UsaPan} />
-                    <img className="w-[60%] mb-20 md:mb-0" src={BrentwoodJpg} />
+                    <img className="w-[50%] mt-0 md:mb-0 md:mt-10" src={UsaPan} />
+                    <img className="w-[60%] mt-12 mb-20 md:mb-0" src={BrentwoodJpg} />
                   </div>
                 </Transition>
 
