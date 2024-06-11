@@ -21,21 +21,21 @@ function Pricing () {
                                 <th scope="col">
                                     <h2 className="px-2 text-lg font-medium text-black">Starter</h2>
                                     <p className="mb-3">
-                                        <span className="text-xl font-bold sm:text-4xl text-black">$0.65</span>
+                                        <span className="text-xl font-bold sm:text-4xl text-black">$1.00</span>
                                         <span className="font-medium dark:text-gray-400"> / unit</span>
                                     </p>
                                 </th>
                                 <th scope="col">
                                     <h2 className="px-2 text-lg font-medium text-black">Standard</h2>
                                     <p className="mb-3">
-                                        <span className="text-xl font-bold sm:text-4xl text-black">$0.55</span>
+                                        <span className="text-xl font-bold sm:text-4xl text-black">$0.85</span>
                                         <span className="font-medium dark:text-gray-400"> / unit</span>
                                     </p>
                                 </th>
                                 <th scope="col">
                                     <h2 className="px-2 text-lg font-medium text-black">Premium</h2>
                                     <p className="mb-3">
-                                        <span className="text-xl font-bold sm:text-4xl text-black">$0.45</span>
+                                        <span className="text-xl font-bold sm:text-4xl text-black">$0.75</span>
                                         <span className="font-medium dark:text-gray-400"> / unit</span>
                                     </p>
                                 </th>
