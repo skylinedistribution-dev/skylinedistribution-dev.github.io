@@ -20,3 +20,41 @@
 [x-cloak=""] {
     display: none;
 }
+
+.contact {
+    max-width: 600px;
+}
+
+.fname {
+    width: 100%;
+}
+
+.popup-overlay{
+    max-width: 600px;
+    position: fixed;
+    margin: auto;
+    top: 120px;
+    background: #fff;
+    box-shadow: none;
+    border: none;
+    border-radius: 6px;
+    left: 0;
+    right: 0;
+}
+
+.popup-overlay .contact {
+    padding: 50px 50px 30px;
+}
+
+.popup-overlay button.close-button {
+    position: absolute;
+    right: 15px;
+    top: 2px;
+    font-size: 23px;
+}
+
+.popup-overlay .contact:focus{
+    border: none;
+    outline-style: none;
+    box-shadow: none;
+}

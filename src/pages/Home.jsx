@@ -9,6 +9,8 @@ import Products from '../partials/Products'
 import Pricing from '../partials/Pricing'
 import Testimonials from '../partials/Testimonials'
 import ConnectWithUs from '../partials/ConnectWithUs'
+import DelayedForm from '../partials/DelayedForm'
+import ContactForm from '../partials/ContactForm'
 
 function Home () {
   return (
@@ -23,6 +25,8 @@ function Home () {
         <Pricing />
         <Testimonials />
         <ConnectWithUs />
+        <ContactForm />
+        <DelayedForm />
       </main>
 
       <Footer />
