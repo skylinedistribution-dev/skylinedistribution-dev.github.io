@@ -11,6 +11,7 @@ function ContactForm({ closeModal }) {
     first_name: "",
     last_name: "",
     email: "",
+    company: "",
     number: "",
   });
   const [showThankYou, setShowThankYou] = useState(false);
@@ -24,6 +25,7 @@ function ContactForm({ closeModal }) {
           first_name: "",
           last_name: "",
           email: "",
+          company: "",
           number: "",
         });
         reset();
@@ -44,8 +46,11 @@ function ContactForm({ closeModal }) {
 
   return (
     <div>
-      <form className="w-full contact" onSubmit={handleSubmit}>
-        <h2 className="h4 mb-4">Request for Catalog</h2>
+      <form className="w-full contact text-center" onSubmit={handleSubmit}>
+        <h2 className="h2 mb-4">Unlock Exclusive Deals and Updates! </h2>
+        <p className="mb-4">
+          Join our mailing list to stay ahead with the latest product offerings <br />and special discounts!
+        </p>
         <div className="flex form-item mb-4">
           <div className="fname mr-2">
             <input
@@ -53,7 +58,7 @@ function ContactForm({ closeModal }) {
               id="first_name"
               type="text"
               name="first_name"
-              placeholder="First Name"
+              placeholder="Enter your first name"
               value={formData.first_name}
               onChange={handleChange}
             />
@@ -69,7 +74,7 @@ function ContactForm({ closeModal }) {
               id="last_name"
               type="text"
               name="last_name"
-              placeholder="Last Name"
+              placeholder="Enter your last name"
               value={formData.last_name}
               onChange={handleChange}
             />
@@ -87,13 +92,30 @@ function ContactForm({ closeModal }) {
             id="email"
             type="email"
             name="email"
-            placeholder="Enter Your Email"
+            placeholder="Enter your email address"
             value={formData.email}
             onChange={handleChange}
           />
           <ValidationError
             prefix="Email"
             field="email"
+            errors={state.errors}
+          />
+        </div>
+       
+        <div className="form-item mb-4">
+          <input
+            className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            id="company"
+            type="text"
+            name="company"
+            placeholder="Enter your company name"
+            value={formData.company}
+            onChange={handleChange}
+          />
+          <ValidationError
+            prefix="company"
+            field="company"
             errors={state.errors}
           />
         </div>
@@ -104,7 +126,7 @@ function ContactForm({ closeModal }) {
             type="number"
             id="number"
             name="number"
-            placeholder="Enter Your Phone"
+            placeholder="Enter your phone number"
             value={formData.number}
             onChange={handleChange}
           />
@@ -117,12 +139,22 @@ function ContactForm({ closeModal }) {
 
         <div className="form-item mb-4">
           <button
-            className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             type="submit"
             disabled={state.submitting}
           >
-            Submit
+            Sign Up Now
           </button>
+        </div>
+        <div className="privacy-note">
+        
+
+          <div className="flex">
+          <strong>Privacy Note: </strong>
+          <p className="mb-4"> We respect your privacy. Unsubscribe at any time.</p>
+          </div>
+          
+          
         </div>
       </form>
       {showThankYou && (
@@ -144,7 +176,7 @@ function DelayedPopup() {
       const timer = setTimeout(() => {
         setShowModal(true);
         Cookies.set("formShown", "true", { expires: 1 }); // Cookie expires in 1 day
-      }, 9000); // 9 seconds
+      }, 5000); // 5 seconds
 
       return () => clearTimeout(timer);
     }

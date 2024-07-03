@@ -3,6 +3,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import SendOutlinedIcon from "@mui/icons-material/SendOutlined";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import SmartToyIcon from '@mui/icons-material/SmartToy';
+import CallIcon from '@mui/icons-material/Call';
 
 function ConnectWithUs() {
   return (
@@ -86,6 +87,27 @@ function ConnectWithUs() {
                 </ul>
               </div>
             </div>
+
+            <div className="flex justify-center items-center">
+              <div className="text-center">
+                <h6 className="font-bold text-gray-800 text-sm sm:text-xl mb-2">
+                  Phone
+                </h6>
+                <ul className="text-xs sm:text-md text-gray-600">
+                  <li className="mb-2 hidden sm:block">
+                    <a href="https://www.instagram.com/skylinedistribution/">
+                    409-207-8787
+                    </a>
+                  </li>
+                  <li className="sm:mb-2 mb-5">
+                    <a href="https://www.instagram.com/skylinedistribution/">
+                      <CallIcon fontSize="large"/>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>

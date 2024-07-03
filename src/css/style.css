@@ -30,7 +30,7 @@
 }
 
 .popup-overlay{
-    max-width: 600px;
+    max-width: 700px;
     position: fixed;
     margin: auto;
     top: 120px;
@@ -40,10 +40,13 @@
     border-radius: 6px;
     left: 0;
     right: 0;
+    box-shadow: 10px 10px 30px #00000042;
 }
 
 .popup-overlay .contact {
-    padding: 50px 50px 30px;
+    padding: 80px 30px 50px; 
+    margin: 0 auto;
+    max-width: 650px;
 }
 
 .popup-overlay button.close-button {

@@ -7,6 +7,7 @@ function ContactForm() {
     first_name: "",
     last_name: "",
     email: "",
+    company: "",
     number: "",
   });
   const [showThankYou, setShowThankYou] = useState(false);
@@ -20,6 +21,7 @@ function ContactForm() {
           first_name: "",
           last_name: "",
           email: "",
+          company: "",
           number: "",
         });
         reset();
@@ -41,7 +43,7 @@ function ContactForm() {
     <section className="relative" id="connect-with-us">
       <div className="relative max-w-6xl mx-auto px-4 sm:px-24 sm:pb-24">
         <div className="max-w-5xl mx-auto text-center">
-          <h2 className="h2">Request for Catalog</h2>
+          <h2 className="h2">Request our catalog</h2>
         </div>
 
         <div className="pt-12 md:pt-20">
@@ -54,7 +56,7 @@ function ContactForm() {
                     id="first_name"
                     type="text"
                     name="first_name"
-                    placeholder="First Name"
+                    placeholder="Enter your first name"
                     value={formData.first_name}
                     onChange={handleChange}
                   />
@@ -70,7 +72,7 @@ function ContactForm() {
                     id="last_name"
                     type="text"
                     name="last_name"
-                    placeholder="Last Name"
+                    placeholder="Enter your last name"
                     value={formData.last_name}
                     onChange={handleChange}
                   />
@@ -88,13 +90,30 @@ function ContactForm() {
                   id="email"
                   type="email"
                   name="email"
-                  placeholder="Enter Your Email"
+                  placeholder="Enter your email address"
                   value={formData.email}
                   onChange={handleChange}
                 />
                 <ValidationError
                   prefix="Email"
                   field="email"
+                  errors={state.errors}
+                />
+              </div>
+              
+              <div className="form-item mb-4">
+                <input
+                  className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                  id="company"
+                  type="text"
+                  name="company"
+                  placeholder="Enter your company name"
+                  value={formData.company}
+                  onChange={handleChange}
+                />
+                <ValidationError
+                  prefix="company"
+                  field="company"
                   errors={state.errors}
                 />
               </div>
@@ -115,7 +134,7 @@ function ContactForm() {
                   errors={state.errors}
                 />
               </div>
-
+              
               <div className="form-item mb-4">
                 <button
                   className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
