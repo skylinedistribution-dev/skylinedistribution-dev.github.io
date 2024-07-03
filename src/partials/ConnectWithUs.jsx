@@ -95,12 +95,12 @@ function ConnectWithUs() {
                 </h6>
                 <ul className="text-xs sm:text-md text-gray-600">
                   <li className="mb-2 hidden sm:block">
-                    <a href="https://www.instagram.com/skylinedistribution/">
+                    <a href="tel:409-207-8787">
                     409-207-8787
                     </a>
                   </li>
                   <li className="sm:mb-2 mb-5">
-                    <a href="https://www.instagram.com/skylinedistribution/">
+                    <a href="tel:409-207-8787">
                       <CallIcon fontSize="large"/>
                     </a>
                   </li>
